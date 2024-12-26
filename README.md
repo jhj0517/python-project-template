@@ -24,7 +24,7 @@ Basic CI workflow with pytest. It runs tests in the [tests/](https://github.com/
 
 Basic CD workflow for DockerHub publishing. You can remove this workflow if you don't need it.<br>
 It will build the docker image with files in the [docker/](https://github.com/jhj0517/python-project-template/tree/master/docker) and publish it to the dockerhub. The auto-trigger of the action is disabled by default.<br>
-Before using the workflow, you need to set the `DOCKERHUB_USERNAME` & `DOCKERHUB_TOKEN` in the repository settings.
+Before using the workflow, you need to set the `DOCKER_USERNAME ` & `DOCKER_PASSWORD` in the repository settings.
 
 ![image](https://github.com/user-attachments/assets/ab9f7081-fa07-4181-af30-b6646161bc0b)
 
