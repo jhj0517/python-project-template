@@ -6,9 +6,10 @@ name: Publish to Docker Hub
 on:
   workflow_dispatch:
 
-  push:
-    branches:
-      # - master
+#  Uncomment the following line to trigger the workflow for `push` events on the `master` branch
+#  push:
+#    branches:
+#       - master
 
 jobs:
   dockerhub-publish:

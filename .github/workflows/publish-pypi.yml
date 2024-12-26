@@ -4,6 +4,8 @@
 name: Publish to PyPI
 
 on:
+  workflow_dispatch:
+
 #  Uncomment the following line to trigger the workflow when you make "release" in the repository
 #  release:
 #    types: [created]
