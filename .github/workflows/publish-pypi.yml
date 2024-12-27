@@ -1,4 +1,5 @@
-#  This workflow is an automated CD to the DockerHub. The trigger is disabled by default, you can edit the trigger in the `on` section if you want.
+#  This workflow is an automated CD to the PyPI.
+#  The auto-trigger is disabled by default, you can edit the trigger in the `on` section if you want.
 
 
 name: Publish to PyPI
